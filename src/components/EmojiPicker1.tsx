@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function EmojiPicker2(): JSX.Element {
+export default function EmojiPicker1(): JSX.Element {
 
   const [emoji, setEmoji] = useState("🦊");
   const initialPreviousEmojis: string[] = [];
