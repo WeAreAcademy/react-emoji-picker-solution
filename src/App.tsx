@@ -1,9 +1,10 @@
-import EmojiPicker1 from "./components/EmojiPicker2";
-// import EmojiPicker2 from "./components/EmojiPicker2";
+import EmojiPicker from "./components/EmojiPicker1";
+// import EmojiPicker from "./components/EmojiPicker2";
+// import EmojiPicker from "./components/EmojiPicker3";
 import './App.css'
 
 function App(): JSX.Element {
-  return <EmojiPicker1 />;
+  return <EmojiPicker />;
 }
 
 export default App;
